@@ -1,0 +1,20 @@
+<!--pages/home/home.wxml-->
+<view class="home">
+    <text class="home-title">锻炼项目:</text>
+    <view class="home-content">
+        <view class="home-content-item">
+            <view class="item-content">
+            <text class="item-title">keep：</text>
+                <switch bindchange="switchChange" class="item-switch" />
+                 </view>
+                <textarea class="item-input" placeholder="填写您的运动时间或者运动说明"></textarea>
+        </view>
+        <view class="home-content-item">
+            <view class="item-content">
+            <text class="item-title">keep：</text>
+                <switch bindchange="switchChange" class="item-switch" />
+                 </view>
+                <textarea class="item-input" placeholder="填写您的运动时间或者运动说明"></textarea>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,18 @@
+/* components/cell/cell.wxss */
+.cell-container{
+    width: 100%;
+    color:#666;
+    border:1px solid #ddd;
+    border-right: 0;
+    border-left: 0;
+    padding: 20rpx 40rpx;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-right{
+    width: 40rpx;
+    height:40rpx;
+}

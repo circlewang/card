@@ -1,0 +1,37 @@
+{
+  "pages": ["pages/home/home",
+    "pages/index/index",
+    "pages/logs/logs",
+    "components/cell/cell",
+    
+    "pages/record/record"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "./images/unselected_card.png",
+        "selectedIconPath": "./images/card.png",
+        "text": "打卡"
+      },
+      {
+        "pagePath": "pages/record/record",
+        "iconPath": "images/unselected_record.png",
+        "selectedIconPath": "images/record.png",
+        "text": "记录"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/unselected_my.png",
+        "selectedIconPath": "images/my.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

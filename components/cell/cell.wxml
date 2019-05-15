@@ -1,0 +1,5 @@
+<!-- components/cell/cell.wxml -->
+<view class="cell-container" hover-class="none" hover-stop-propagation="false">
+    <text class="cell-title">{{title}}</text>
+    <image src="images/right.png" class="icon-right" />
+</view>
